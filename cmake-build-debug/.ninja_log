@@ -12,3 +12,7 @@
 149	375	7028119711064583	untitled19.exe	50fcf80dc70d11fa
 5	259	7028120398464680	CMakeFiles/untitled19.dir/main.c.obj	326dbe3deeef3ac0
 261	589	7028120401614639	untitled19.exe	50fcf80dc70d11fa
+15	405	7028123540777884	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	f2d921b658a828e1
+6	416	7028123540807893	CMakeFiles/untitled19.dir/main.c.obj	326dbe3deeef3ac0
+407	900	7028123546107868	libs/data_structures/libdata_structures.a	4f5bb1079184960b
+900	1321	7028123550127836	untitled19.exe	50fcf80dc70d11fa
