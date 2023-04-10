@@ -62,7 +62,7 @@ void pushBack(vector *v, const int x) {
 
 void popBack(vector *v) {
     if (isEmpty(v)) {
-        fprintf(stderr, "bad alloc ");
+        fprintf(stderr, "bad alloc");
         exit(1);
     }
     else
