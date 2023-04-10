@@ -39,3 +39,48 @@ void deleteVectorV(vectorVoid *v) {
     v->size = 0;
     v->capacity = 0;
 }
+
+bool isEmptyV(const vectorVoid *v) {
+    return v->size == 0;
+}
+
+bool isFullV(const vectorVoid *v) {
+    return v->size == v->capacity;
+}
+
+void getVectorValueV(vectorVoid *v, const size_t index, void *destination) {
+    if (index >= v->size) {
+        fprintf(stderr, "IndexError: a[%zu] is not exists", index);
+        exit(1);
+    }
+    const char *source = (char *) v->data + index * v->baseTypeSize;
+    memcpy(destination, source, v->baseTypeSize);
+}
+
+void setVectorValueV(vectorVoid *v, const size_t index, const void *source) {
+    if (index >= v->size) {
+        fprintf(stderr, "IndexError: a[%zu] is not exists", index);
+        exit(1);
+    }
+    char *destination = (char *) v->data + index * v->baseTypeSize;
+}
+void popBackV(vectorVoid *v) {
+    if (isEmptyV(v)) {
+        fprintf(stderr, "IndexError: vector is empty");
+        exit(1);
+    }
+    else
+        v->size--;
+}
+
+void pushBackV(vectorVoid *v, void *source) {
+    if (v->capacity == 0) {
+        v->capacity++;
+        reserveV(v, v->capacity);
+    }
+    else if (isFullV(v))
+        reserveV(v, 2 * v->capacity);
+    char *destination = (char *) v->data + v->size * v->baseTypeSize;
+    memcpy(destination, source, v->baseTypeSize);
+    v->size++;
+}

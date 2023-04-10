@@ -5,3 +5,9 @@
 5	220	7028107508692745	libs/algorithms/CMakeFiles/algorithms.dir/algorithms.c.obj	ca5dabd469762c09
 244	492	7028125985287874	libs/data_structures/libdata_structures.a	4f5bb1079184960b
 221	546	7028107512112908	libs/algorithms/libalgorithms.a	fb597c72fabb096b
+12	423	7028137950003868	libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.obj	2ee6a7527b68d28a
+5	567	7028137951463792	CMakeFiles/untitled19.dir/main.c.obj	326dbe3deeef3ac0
+425	907	7028137954976631	libs/data_structures/libdata_structures.a	1d95d06ea3f8d521
+908	1314	7028137959026346	untitled19.exe	50fcf80dc70d11fa
+8	634	7028138347093103	CMakeFiles/untitled19.dir/main.c.obj	326dbe3deeef3ac0
+635	970	7028138350342981	untitled19.exe	50fcf80dc70d11fa
