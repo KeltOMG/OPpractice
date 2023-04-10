@@ -1,0 +1,7 @@
+# ninja log v5
+7	1849	7028105948302981	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	f2d921b658a828e1
+1	1881	7028105948302981	CMakeFiles/untitled19.dir/main.c.obj	326dbe3deeef3ac0
+1852	2590	7028105955787743	libs/data_structures/libdata_structures.a	4f5bb1079184960b
+5	220	7028107508692745	libs/algorithms/CMakeFiles/algorithms.dir/algorithms.c.obj	ca5dabd469762c09
+221	546	7028107512112908	libs/algorithms/libalgorithms.a	fb597c72fabb096b
+547	870	7028107515102713	untitled19.exe	50fcf80dc70d11fa
