@@ -72,6 +72,8 @@ void test() {
 
 
 int main() {
+    vectorVoid vInt = (vectorVoid) {NULL, 0, 0, sizeof(int)};
+    vectorVoid vFloat = (vectorVoid) {NULL, 0, 0, sizeof(float)};
     size_t n;
     scanf("%zd", &n);
     vectorVoid v = createVectorV(0, sizeof(float));
@@ -85,6 +87,7 @@ int main() {
         getVectorValueV(&v, i, &x);
         printf("%f ", x);
     }
+    test();
     return 0;
 }
 
